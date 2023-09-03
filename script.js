@@ -10,7 +10,7 @@ const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
 const displayScore = function (score) {
-  displayScore(score);
+  document.querySelector('.score').textContent = score;
 };
 const displayNumber = function (number) {
   document.querySelector('.number').textContent = number;
